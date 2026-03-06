@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd ../frontend && npm i && npm run build && cd ../server && npm i",
+    "start": "node serve.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
